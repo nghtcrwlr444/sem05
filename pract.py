@@ -1,8 +1,9 @@
-def metodo_seleccion(lista)-> list:
-    num = len(lista)
-    for i in range(n):
+def metodo_seleccion(lista) -> list:
+    num = len(lista) 
+    
+    for i in range(num): 
         min_index = i
-        for j in range(i + 1, n):
+        for j in range(i + 1, num): 
             if lista[j] < lista[min_index]:
                 min_index = j
         if min_index != i:
