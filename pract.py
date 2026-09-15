@@ -1,5 +1,5 @@
 def metodo_seleccion(lista)-> list:
-    n = len(lista)
+    num = len(lista)
     for i in range(n):
         min_index = i
         for j in range(i + 1, n):
@@ -9,5 +9,5 @@ def metodo_seleccion(lista)-> list:
             lista[i], lista[min_index] = lista[min_index], lista[i]
     return lista
 
-lista = [64, 25, 12, 22, 11]
+lista = [2, 9, 5, 4, 8]
 print(metodo_seleccion(lista))
