@@ -1,2 +1,0 @@
-# sem05
-practice
